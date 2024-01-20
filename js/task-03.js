@@ -23,4 +23,5 @@ const ulGallery = document.querySelector('.gallery');
       </li>
     `).join('');
 
-    ulGallery.insertAdjacentHTML('beforeend', galleryMarkup)
+    ulGallery.insertAdjacentHTML('beforeend', galleryMarkup);
+    

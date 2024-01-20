@@ -19,7 +19,7 @@ var nameOutput = document.getElementById('name-output');
     // method 3
 
 function inputValue() {
-    nameOutput.textContent = nameInput.value || 'Anonymous (walang value)';
+    nameOutput.textContent = nameInput.value || 'Anonymous';
   }
 
   nameInput.addEventListener('input', inputValue);
